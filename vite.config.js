@@ -1,5 +1,6 @@
 import { imba } from 'vite-plugin-imba';
 import { defineConfig } from 'vite';
+import GithubActionsReporter from 'vitest-github-actions-reporter'
 
 export default defineConfig({
 	plugins: [imba()],
@@ -11,6 +12,9 @@ export default defineConfig({
 		include: ["**/*.{test,spec}.{imba,js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
 		includeSource: ['src/**/*.{imba,js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
 		environment: "jsdom",
-		setupFiles: ["./test/setup.imba"]
+		setupFiles: ["./test/setup.imba"],
+		reporters: process.env.GITHUB_ACTIONS
+			? new GithubActionsReporter()
+			: 'default'
 	},
 });
