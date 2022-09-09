@@ -1,7 +1,6 @@
 import { imba } from 'vite-plugin-imba';
 import { defineConfig } from 'vite';
-// import GithubActionsReporter from 'vitest-github-actions-reporter'
-import GithubActionsReporter from './rp.js'
+import GithubActionsReporter from 'vitest-github-actions-reporter-temp'
 
 export default defineConfig({
 	plugins: [imba()],
