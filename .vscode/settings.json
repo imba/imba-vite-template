@@ -1,0 +1,4 @@
+{
+	"testing.automaticallyOpenPeekView": "never",
+	"debug.allowBreakpointsEverywhere": true
+}
