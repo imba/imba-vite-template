@@ -1,7 +1,5 @@
 import {screen, waitFor} from "@testing-library/dom"
 
-css button c:green4
-
 export default tag Counter < button
 	prop count = 0
 	<self @click=count++> `Count is {count}`
