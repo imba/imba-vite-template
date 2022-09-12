@@ -1,12 +1,15 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5aad6d39-168c-482a-9f52-3d8cd9e1c8d1/deploy-status)](https://app.netlify.com/sites/vite-imba/deploys)
+
 _Bootstrapped with [imba-vite-template](https://github.com/imba/imba-vite-template)._
 
 Welcome to the Imba Vite template! Let's get you set up and ready to code!
 
-**NOTE:** This app doesn't have a server. If you need a full stack web application with server logic you can use [imba base template](https://github.com/imba/imba-base-template) or check out [Vite's backend integration guide](https://vitejs.dev/guide/backend-integration.html)
+[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/imba/imba-vite-template)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fimba%2Fimba-vite-template)
+
 
 ## Code structure
-
-_NOTE: There is a temporary `src/main.js` file that is still necessary for Vite to work correctly. You don't have to do anything with this file._
 
 ### `main.imba`
 
@@ -60,3 +63,7 @@ Run and watch the tests.
 ### `npm run test:ui`
 
 Run and watch the tests - and open the [Vitest UI](https://vitest.dev/guide/ui.html)
+
+## Notes
+- This app doesn't have a server. If you need a full stack web application with server logic you can use [imba base template](https://github.com/imba/imba-base-template) or check out [Vite's backend integration guide](https://vitejs.dev/guide/backend-integration.html)
+- There is a temporary `src/main.js` file that is still necessary for Vite to work correctly. You don't have to do anything with this file. And this will probably be fixed in a future version of Vite.
