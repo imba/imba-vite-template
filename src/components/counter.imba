@@ -12,5 +12,5 @@ if import.meta.vitest
 		const counter = screen.getByText("Count is 0")
 		expect(counter).toBeTruthy!
 		counter.click!
-		waitFor do expect(screen.getByText("Count is 2")).toBeTruthy!
+		waitFor do expect(screen.getByText("Count is 1")).toBeTruthy!
 
