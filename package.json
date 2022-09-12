@@ -24,5 +24,9 @@
     "imba": "^2.0.0-alpha.220",
     "source-map": "^0.7.4",
     "vite-plugin-imba": "^0.4.1"
+  },
+  "engines": {
+    "node": ">=16.17.0",
+    "npm": ">=8.15.0"
   }
 }
