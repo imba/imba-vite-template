@@ -1,4 +1,9 @@
 import {assert,expect,test} from "vitest"
+import add from '../src/utils.imba'
+
+test "add()", do
+	it "adds from test folder", do
+		expect(add(40, 2)).toBe(42)
 
 test "Math.sqrt()", do
 	expect(Math.sqrt(4)).toBe 2
