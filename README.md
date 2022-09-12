@@ -2,7 +2,7 @@ _Bootstrapped with [imba-vite-template](https://github.com/imba/imba-vite-templa
 
 Welcome to the Imba Vite template! Let's get you set up and ready to code!
 
-**NOTE:** This app doesn't have a server. If you need a full stack web application with server logic you can use [imba base template](https://github.com/imba/imba-base-template) instead.
+**NOTE:** This app doesn't have a server. If you need a full stack web application with server logic you can use [imba base template](https://github.com/imba/imba-base-template) or check out [Vite's backend integration guide](https://vitejs.dev/guide/backend-integration.html)
 
 ## Code structure
 
