@@ -8,6 +8,12 @@ Welcome to the Imba Vite template! Let's get you set up and ready to code!
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fimba%2Fimba-vite-template)
 
+## Deploy examples
+
+To see what it looks like when you use this template and deploy it, check out the following examples:
+
+- [Netlify](https://github.com/codeluggage/imba-on-netlify)
+- [GitHub Pages](https://codeluggage.github.io/imba-on-github-pages/)
 
 ## Code structure
 
