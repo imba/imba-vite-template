@@ -18,7 +18,7 @@
     "vitest": "^0.23.1",
     "vitest-github-actions-reporter-temp": "^0.8.3",
 	"@testing-library/jest-dom": "^5.16.5",
-	"imba": "^2.0.0-alpha.220",
-	"vite-plugin-imba": "^0.4.1"
+	"imba": "latest",
+	"vite-plugin-imba": "latest"
   }
 }
